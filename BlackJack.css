@@ -1,0 +1,23 @@
+html,body{
+    background-image: url("backgroundd.jpg") ;
+
+}
+h1{
+    font-size: 70px;
+    color: rgb(223, 165, 18);
+    
+}
+button{
+    width: 200px;
+    background-color: rgb(223, 165, 18);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(18, 145, 18);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 4px;
+}
+p{
+        font-size: 40px;
+}
