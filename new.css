@@ -66,3 +66,11 @@ position:relative;
   float:left;
   margin-right: 40px;
 }
+.contact-me{
+   color: white;
+   font-size: 1vw;
+        }
+.footer-link{
+  color: rgb(36, 101, 242);   
+  font-size: 1vw;
+}
