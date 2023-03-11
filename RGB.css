@@ -45,7 +45,7 @@ td#pro{
 }
 .project-btn{
     background-color:rgb(108, 51, 206);
-    padding :0.35vw 0.75vw 0.35vw 0.75vw ;
+    padding :0.55vw;
     border:none;
     border-radius: 5px;
     font-size: 1.5vw;
@@ -67,7 +67,7 @@ td#pro{
 .project-content a {
     color: white;
     font-size: 1.2vw;
-    padding :0.35vw 0.75vw 0.35vw 0.75vw ;
+    padding :0.55vw;
     text-decoration: none;
     display: block;
 }
