@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Rajesh Goud</title>
+    <link rel="stylesheet" href="table.css">
     <link rel="icon" href="man.ico">
     <meta  name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -16,7 +17,8 @@
         li a:hover{background-color: rgb(130, 85, 209); border-radius: 500px;  }
         li a{
             color: white;
-            display: block;
+            display:block;
+            float: right;
             padding: 8px;
             text-decoration: none;
             font-size: 1.1vw;
@@ -24,6 +26,7 @@
             font-weight: lighter;
             font-family:Calibri, Corbel, Perpetua, Cambria, 'Times New Roman', Times, serif;
         }
+
         table,th,tr,td{
             border: transparent;
             border-collapse: collapse;
@@ -42,24 +45,77 @@
             padding-top: 100px;
             
         }
+
+        @media screen and(max-width:600px) {
+            li a{
+                float:none;
+                width:100%;
+            }
+            table,th,tr,td{
+            font-size: 12vw;
+            font-family: Cambria,Perpetua;
+            font-weight: bold;
+            
+        }
+        }
+        .hey{
+            padding: 70px;
+        }
+        .project-btn{
+            background-color:rgb(108, 51, 206);
+            padding:10px;
+            border:none;
+            border-radius: 5px;
+            font-size: 1.5vw;
+            font-family:Calibri, Corbel, Perpetua, Cambria, 'Times New Roman', Times, serif;
+        }
+        .projects {
+            position: relative;
+            display: inline-block;
+        }
+        .project-content{
+               display: none;
+               position: absolute;
+               background-color:rgb(41, 37, 37) ;
+               min-width: 5vw;
+               box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+               z-index: 1;
+               font-size: 1.2vw;
+              font-family:Calibri, Corbel, Perpetua, Cambria, 'Times New Roman', Times, serif;
+        }
+        
+        .project-content a:hover {background-color:rgb(119, 70, 204);}
+        .project-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .projects:hover .project-content{
+            display: block;
+        }
+        .projects:hover .project-btn{
+            background-color: rgb(124, 71, 216);
+        }
         .contact-me{
             color: white;
-            font-size: 0.8vw;
+            font-size: 1vw;
         }
         .footer-link{
             color: rgb(36, 101, 242);   
-            font-size: 0.8vw;
-
+            font-size: 1vw;
         }
+
     </style>
 </head>
 <body >
     <ul>
         <li><a style="float: left; color:rgb(255, 255, 255); font-weight: bold; text-decoration: overline underline; 
             text-decoration-style: solid; ">/ RGB \ </a></li>
-        <li><a style="float: right; " href="mailto:rajeshgoud2313@gmail.com" target="_blank">CONTACT</a></li>
-        <li><a style="float: right;" href="Rajesh.html" >ABOUT</a></li>
-        <li><a style="float: right;"  href="RGB.HTML" >HOME</a></li>
+        <li><a   href="mailto:rajeshgoud2313@gmail.com" target="_blank">CONTACT</a></li>
+        <li><a   href="Rajesh/Rajesh.html" >ABOUT</a></li>
+        <li><a   href="RGB.HTML" >HOME</a></li>
     </ul>
     <hr>
     <br>
@@ -79,14 +135,22 @@
             <td style="font-size: 1.5vw; ">I like to craft solid and scalable frontend products with great user experiences.</td>
         </tr>
         <tr>
-            <td id="pro"><a style="color:rgb(106, 44, 212); " href="projects.html" target="_blank" >VIEW PROJECTS </a></td>
+            <td id="pro">
+                 <div class="projects">
+                       <button class="project-btn">View Projects</button>
+                       <div class="project-content">
+                        <a href="webdesignerraj/new.html">Profile-1</a>
+                        <a href="Rajesh/Rajesh.html">Profile-2</a>
+                        <a href="BlackJack/Blackjack.html">Black Jack Game</a>
+                        <a href="jsdemo/jsdemo.html">Entry Counter</a>
+                    </div>
+                 </div>
+            
+            </td>
         </tr>
         
     </table>
-    <br>
-    <br>
-    <br>
-    <br>
+    <p class="hey"></p>
     <center>
       <div class="contact-me">
         <h2>Get In Touch</h2>
