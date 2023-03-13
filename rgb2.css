@@ -41,7 +41,7 @@ table,th,tr,td{
 }
 td.name{
     font-size: 3.7vw; 
-    text-shadow: -0.2vw -0.1vw 0.1vw rgb(130, 85, 209);
+    text-shadow: -0.22vw -0.22vw 0.1vw rgb(130, 85, 209);
 }
 td.tag{
     font-size: 4.8vw;
