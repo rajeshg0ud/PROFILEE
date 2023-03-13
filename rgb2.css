@@ -1,0 +1,98 @@
+html,body{
+    background-color: rgb(32, 31, 31);
+}
+ul{
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+ul.menu li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+ul.menu li a{
+    display: block;
+    padding:20px;
+    color: white;
+    text-decoration: none;
+    font-size:1.4vw;
+    font-family:Calibri, Corbel, Perpetua, Cambria, 'Times New Roman', Times, serif;
+}
+ul.menu li:hover{
+    background-color:rgb(108, 51, 206);
+}
+
+@media screen and (max-width:600px){
+    ul.menu li {
+        float: none;
+    }
+}
+
+table,th,tr,td{
+    border: transparent;
+    border-collapse: collapse;
+    border-style: inset;
+    font-size: 2vw;
+    font-family: Cambria,Perpetua;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 110px;
+    color: whitesmoke;
+}
+td#name{
+    padding-top: 50px;
+}
+td#pro{
+    padding-top: 100px;
+    
+}
+
+.hey{
+    padding: 80px;
+}
+.project-btn{
+    background-color:rgb(108, 51, 206);
+    padding :0.5vw 0.95vw 0.5vw 0.95vw ;
+    border:none;
+    border-radius:0.5vw;
+    font-size: 1.6vw;
+    font-family:Calibri, Corbel, Perpetua, Cambria, 'Times New Roman', Times, serif;
+}
+.projects {
+    position: relative;
+    display: inline-block;
+}
+.project-content{
+       display: none;
+       position: absolute;
+       background-color:rgb(41, 37, 37) ;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+       font-family:Calibri, Corbel, Perpetua, Cambria, 'Times New Roman', Times, serif;
+}
+
+.project-content a:hover {background-color:rgb(119, 70, 204);}
+.project-content a {
+    color: white;
+    border-radius: 0.5vw;
+    font-size: 1.5vw;
+    padding :0.55vw 0.95vw 0.5vw 0.95vw;
+    text-decoration: none;
+    display: block;
+}
+
+.projects:hover .project-content{
+    display: block;
+}
+.projects:hover .project-btn{
+    background-color: rgb(124, 71, 216);
+}
+.contact-me{
+    color: white;
+    font-size: 0.8vw;
+}
+.footer-link{
+    color: rgb(36, 101, 242);   
+    font-size: 0.8vw;
+}
