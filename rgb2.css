@@ -4,6 +4,7 @@ body{
 ul{
     position:fixed;
     top:0px;
+    left:0px;
     width:100%;
     overflow: hidden;
     margin:0;
@@ -36,7 +37,7 @@ table,th,tr,td{
     font-family: Cambria,Perpetua;
     font-weight: bold;
     padding: 10px;
-    padding-left: 110px;
+    padding-left: 65px;
     color: whitesmoke;
 }
 td.name{
@@ -55,10 +56,6 @@ td#name{
 td#pro{
     padding-top: 100px;
     
-}
-
-.hey{
-    padding: 90px;
 }
 
 .padding{
@@ -101,12 +98,15 @@ td#pro{
 .projects:hover .project-btn{
     background-color: rgb(124, 71, 216);
 }
+
+.hey{
+    padding: 90px;
+}
 .contact-me{
     color: white;
     font-size: 0.8vw;
 }
 .footer-link{
-    color: rgb(36, 101, 242);   
     font-size: 0.8vw;
 }
 
@@ -117,8 +117,8 @@ td#pro{
         float: none;
     }
     ul.menu li a{
-        font-size:2.9vw;
-        padding: 8px;
+        font-size:2.4vw;
+        padding: 10px;
     }
     table,th,tr,td{
         font-size: 3vw;
@@ -132,5 +132,13 @@ td#pro{
     }
     td.tag2{
        font-size: 2.6vw
+    }
+    
+    .contact-me{
+        color: white;
+        font-size: 1.4vw;
+    }
+    .footer-link{
+        font-size: 1.7vw;
     }
 }
