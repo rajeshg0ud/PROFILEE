@@ -35,7 +35,7 @@ table,th,tr,td{
     font-size: 2vw;
     font-family: Cambria,Corbel, Perpetua, Cambria, 'Times New Roman', Times, serif;
     font-weight: bold;
-    padding: 10px;
+    padding: 1vw;
     padding-left: 65px;
     color: whitesmoke;
 }
@@ -126,6 +126,8 @@ td#pro{
     }
     table,th,tr,td{
         font-size: 3vw;
+        padding:10px;
+        padding-left:40px;
     }
     
     td.name{
@@ -137,7 +139,12 @@ td#pro{
     td.tag2{
        font-size: 2.6vw
     }
-    
+    .project-btn{
+        font-size:2vw;
+    }
+    .project-content a {
+        font-size: 2vw;
+    }
     .contact-me{
         color: white;
         font-size: 1.4vw;
