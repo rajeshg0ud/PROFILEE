@@ -21,21 +21,13 @@ ul.menu li a{
     padding:20px;
     color: white;
     text-decoration: none;
-    font-size:1.4vw;
+    font-size:1.2vw;
     font-family:Calibri, Corbel, Perpetua, Cambria, 'Times New Roman', Times, serif;
 }
 ul.menu li:hover{
-    background-color:rgb(108, 51, 206);
+    background-color:rgb(121, 74, 202);
 }
 
-@media screen and (max-width:600px){
-    ul.menu li {
-        float: none;
-    }
-}
-.padding{
-    padding:60px;
-}
 table,th,tr,td{
     border: transparent;
     border-collapse: collapse;
@@ -47,6 +39,16 @@ table,th,tr,td{
     padding-left: 110px;
     color: whitesmoke;
 }
+td.name{
+    font-size: 3.7vw; 
+    text-shadow: -0.2vw -0.1vw 0.1vw rgb(130, 85, 209);
+}
+td.tag{
+    font-size: 4.8vw;
+}
+td.tag2{
+    font-size: 2.1vw
+}
 td#name{
     padding-top: 50px;
 }
@@ -57,6 +59,10 @@ td#pro{
 
 .hey{
     padding: 90px;
+}
+
+.padding{
+    padding:60px;
 }
 .project-btn{
     background-color:rgb(108, 51, 206);
@@ -102,4 +108,29 @@ td#pro{
 .footer-link{
     color: rgb(36, 101, 242);   
     font-size: 0.8vw;
+}
+
+
+
+@media screen and (max-width:600px){
+    ul.menu li {
+        float: none;
+    }
+    ul.menu li a{
+        font-size:2.9vw;
+        padding: 8px;
+    }
+    table,th,tr,td{
+        font-size: 3vw;
+    }
+    
+    td.name{
+        font-size: 5vw; 
+    }
+    td.tag{
+        font-size: 5.7vw;
+    }
+    td.tag2{
+       font-size: 2.6vw
+    }
 }
