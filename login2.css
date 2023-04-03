@@ -132,12 +132,8 @@ form input[type="submit"]:hover{
 
 .footer .social-field a{
     text-decoration: none;
-    color:aliceblue; 
-}
-
-.footer .social-field a {
+    color:aliceblue;
     margin-left:0.5rem;
-    border-bottom: 2rem;
 }
 
 .footer .social-field.twitter{
@@ -151,15 +147,15 @@ form input[type="submit"]:hover{
 .footer-img{
     height: 2vh; 
     width: 1vw; 
-    margin-top: 7px;
-    margin-left: 7px;
-    margin-right: 10px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
 }
 .footer-img2{
     height: 3.8vh; 
-    width: 2.5vw; 
-    margin-top: 3px;
-    margin-bottom: -8px;
-    margin-left: -3px;
-    margin-right: -1px;
+    width: 2.3vw; 
+    margin-top: 0.2rem;
+    margin-bottom: -0.5rem;
+    margin-left: -0.1rem;
+    margin-right: 0.20rem;
 }
