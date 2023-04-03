@@ -145,15 +145,15 @@ form input[type="submit"]:hover{
 }
 
 .footer-img{
-    height: 2vh; 
-    width: 1vw; 
+    height: 2.3vh; 
+    width: 2.3vh; 
     margin-top: 0.5rem;
     margin-left: 0.5rem;
-    margin-right: 1rem;
+    margin-right: 0.6rem;
 }
 .footer-img2{
-    height: 3.8vh; 
-    width: 2.3vw; 
+    height: 3.5vh; 
+    width: 3.5vh; 
     margin-top: 0.2rem;
     margin-bottom: -0.5rem;
     margin-left: -0.1rem;
